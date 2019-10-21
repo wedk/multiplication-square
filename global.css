@@ -1,0 +1,32 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body.dark {
+  --background: #121212;
+  --foreground: gainsboro;
+  --primary: darkslategray;
+  --medium-muted-text: #b3b3b3;
+  --low-muted-text: dimgray;
+  --overlay: rgba(255, 255, 255, 0.08);
+  --accent-background: #1d1d1d;
+  --border: darkgray;
+}
+
+body.light {
+  --background: gainsboro;
+  --foreground: #121212;
+  --primary: #6fa9a9;
+  --medium-muted-text: #4f4f4f;
+  --low-muted-text: dimgray;
+  --overlay: rgba(255, 255, 255, 0.5);
+  --accent-background: lightgray;
+  --border: darkgray;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-size: 1.0rem;
+}
